@@ -21,8 +21,8 @@ def question_1():
     seasonal_users['season_name'] = seasonal_users['season'].map(seasons_mapping)
 
     plt.figure(figsize=(10, 6))
-    plt.bar(seasonal_users['season_name'], seasonal_users['registered'], label='Registered', color='darkblue')
-    plt.bar(seasonal_users['season_name'], seasonal_users['casual'], bottom=seasonal_users['registered'], label='casual', color='lightblue')
+    plt.bar(seasonal_users['season_name'], seasonal_users['registered'], label='Terdaftar', color='darkblue')
+    plt.bar(seasonal_users['season_name'], seasonal_users['casual'], bottom=seasonal_users['registered'], label='Kasual', color='lightblue')
     plt.title('Rata-rata Jumlah Penyewaan Sepeda berdasarkan Musim')
     plt.xticks(rotation=45)
     plt.grid(axis='y', linestyle='--')
@@ -105,8 +105,8 @@ def explore_center_symmetry(df):
     ).transform_filter(
         alt.datum.key == selected_column
     ).properties(
-        width=200,
-        height=200
+        width=400,
+        height=400
     )
 
     st.altair_chart(chart, use_container_width=True)

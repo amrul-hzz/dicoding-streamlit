@@ -232,11 +232,7 @@ with tab2:
             - cnt:  ada beberapa jam dimana jumlah pengguna total lebih tinggi dari biasanya
              """)
     st.write("Ada beberapa fenomena terkait metrik cuaca (kondisi, kelembapan, kecepatan angin) dan jumlah pengguna (kasual atau terdaftar) yang cukup _note-worthy_")
-
-    st.write("""
-            ### Explore Relationship
-             
-             """)
+    
     st.write("""
             ## Explore Relationship
             Untuk mengecek hubungan antar variabel, kita gunakan korelasi. Pada uji korelasi, kita akan menggunakan data tanpa outlier sehingga mendapatkan pola yang lebih umum dan tidak _overfit_ terhadap outlier

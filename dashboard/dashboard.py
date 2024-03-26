@@ -181,7 +181,7 @@ with tab1:
     st.write("## Pertanyaan #1: Bagaimana perubahan musim memengaruhi volume penyewaan sepeda?")
     question_1()
 
-    st.write("## Pertanyaan #2: Bagaimana perubahan musim memengaruhi volume penyewaan sepeda?")
+    st.write("## Pertanyaan #2: Bagaimana perubahan volume penyewaan sepeda sepanjang hari berdasarkan hari kerja/akhir pekan?")
     question_2()
 
     st.write("""
